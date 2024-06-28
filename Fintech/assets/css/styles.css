@@ -1,0 +1,85 @@
+* {
+    font-family: "Inconsolata", monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    max-height: 80%;
+    background-image: url(../images/pexels-alesiakozik-6770611\(1\).jpg);
+    overflow: hidden;
+}
+
+.container {
+    border: 0px solid #b1458d;
+    background-color: #373636;
+    opacity: 98%;
+    text-align: center;
+    margin: 200px auto;
+    max-width: 80%;
+    height: 33rem;
+}
+
+.icon {
+    font-size: 350%;
+    padding: 20px 150px;
+    background-color: #8F4FC1;
+}
+
+.email {
+    color: #A9FFDF;
+    font-size: 25px;
+    border: 1px solid #8F4FC1;
+    border-radius: 15px;
+    background-color: #373636;
+    margin: 40px 20px;
+    padding: 7px;
+    text-align: start;
+}
+input[type="email"] {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    color: #A9FFDF;
+}
+
+.password {
+    color: #A9FFDF;
+    font-size: 25px;
+    border: 1px solid #8F4FC1;
+    border-radius: 15px;
+    background-color: #373636;
+    margin: 40px 20px 20px;
+    padding: 7px;
+    text-align: start;
+}
+
+input[type="password"] {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    color: #A9FFDF;
+}
+
+
+.links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #8F4FC1;
+}
+
+button {
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: #4BD7A4;
+    border: 1px solid #4BD7A4;
+    border-radius: 15px;
+    padding: 7px;
+    margin: 70px auto auto auto;
+    box-shadow: 0 0 5px #4BD7A4;
+}
